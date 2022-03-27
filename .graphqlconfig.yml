@@ -1,0 +1,16 @@
+projects:
+  reactdraw:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        graphQLApiId: f4rdlq4nmbfn5nigsxl7mkwkf4
+extensions:
+  amplify:
+    version: 3
