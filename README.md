@@ -19,7 +19,7 @@ type Canvas @model {
 1. Clone the repo & change into the directory
 
 ```sh
-git clone https://github.com/dabit3/appsync-graphql-real-time-canvas.git
+git clone https://github.com/scottwhendrickson/react-draw.git
 
 cd appsync-graphql-real-time-canvas
 ```

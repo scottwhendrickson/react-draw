@@ -4,7 +4,8 @@ import './index.css';
 import Canvas from './Canvas';
 import * as serviceWorker from './serviceWorker';
 
-import Amplify from 'aws-amplify'
+//import Amplify from 'aws-amplify'
+import Amplify, { Auth } from 'aws-amplify';
 import config from './aws-exports'
 Amplify.configure(config)
 
