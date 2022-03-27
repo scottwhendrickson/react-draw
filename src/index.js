@@ -9,6 +9,7 @@ import Amplify, { Auth } from 'aws-amplify';
 import config from './aws-exports'
 Amplify.configure(config)
 
+console.log('Lets Go!');
 ReactDOM.render(<Canvas />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
