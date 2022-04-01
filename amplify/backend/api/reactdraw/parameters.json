@@ -1,5 +1,4 @@
 {
   "AppSyncApiName": "reactdraw",
-  "DynamoDBBillingMode": "PAY_PER_REQUEST",
-  "APIKeyExpirationEpoch": 1648842169
+  "DynamoDBBillingMode": "PAY_PER_REQUEST"
 }
