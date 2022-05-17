@@ -118,8 +118,7 @@ class Demo extends Component {
         next: (d) => {
           console.log('SUBSCRIPTION '+d);
           const data = JSON.parse(d.value.data.onUpdateCanvas.data)
-          const length = data.lines.length
-          
+          const length = data.lines.length 
           if (length === 0) {
             // If there is no canvas data, clear the canvas
             const data = this.canvas.getSaveData()
@@ -133,7 +132,6 @@ class Demo extends Component {
             this.canvas.loadSaveData(newCanvas)
             return
           }
-          
           if (this.lineLength === length || length === Number(0)) return
           // Draw new lines to canvas
           console.log('drawing new lines');
